@@ -220,6 +220,17 @@ a.cbox:hover{border-color:#4FC3E6}
 
     <article class="feature">
       <div class="feature-copy">
+        <p class="mono kicker">Open source · Go CLI</p>
+        <h3>GlowPulse</h3>
+        <p>A fast, concurrent website health checker and the first stage of a multi-tenant monitoring platform. It checks many sites in parallel with a worker pool and reports uptime, response time, TLS certificate expiry and missing security headers, with per-site timeouts and graceful shutdown. Output is readable text or JSON, and the exit code makes it easy to use in scripts and CI.</p>
+        <ul class="chips"><li>Go</li><li>Concurrency</li><li>Cobra</li><li>net/http</li><li>GitHub Actions</li></ul>
+        <div class="links"><a href="https://github.com/YoumnaSalloum/glowpulse">Source on GitHub →</a></div>
+      </div>
+      <div class="install mono"><span class="t-dim">$</span> go install github.com/YoumnaSalloum/glowpulse/cmd/glowpulse@latest<br><span class="t-dim">$</span> glowpulse check -w 20 -t 3s https://google.com https://github.com<br><span class="t-ok">✔</span> uptime · response time · TLS expiry · security headers</div>
+    </article>
+
+    <article class="feature">
+      <div class="feature-copy">
         <p class="mono kicker">Open source · published on npm</p>
         <h3>youmna-git-glance</h3>
         <p>An AI-native Git assistant for the terminal, powered by Google Gemini. It writes commit messages, gives senior-level code reviews, answers questions about your repository history, and helps resolve merge conflicts.</p>
